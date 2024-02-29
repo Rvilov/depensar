@@ -18,8 +18,8 @@ return (
     <header className='header'>
         
         <nav id='nav'>
-                
-                    <a href="" className="logo">Logo</a>
+                    
+                    <span className="logo"><img src='https://i.ibb.co/9bJrpZ6/Para-Fondos-Oscuros-Version-3-Logo-Depensar.png' alt="dplogo"/></span>
                     <button className='nav-toggle'>
                             <FontAwesomeIcon icon={faBars} />
                     </button>
@@ -30,9 +30,11 @@ return (
                             <li className='nav-menu-item'>Texto 4</li>
                             
                     </ul> 
+                    
                 
         </nav>  
     </header>
 )
 
 }
+
