@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 
@@ -21,6 +22,7 @@
     margin: 0 auto;
     height: 80px;
 
+    
 
 }
 
@@ -58,7 +60,7 @@
 }
 
 .nav-menu-item{
-    font-size: 18px;
+    font-size: 20px;
     margin: 0 10px;
     line-height: 80px;
     width: max-content;
@@ -99,7 +101,7 @@ img{
         right:0;
         top: 60px;
         
-        width: 60%;
+        width: 40%;
         height: calc(100% - 60px);
         overflow-y: auto;
 

@@ -24,10 +24,10 @@ return (
                             <FontAwesomeIcon icon={faBars} />
                     </button>
                     <ul className='nav-menu'>
-                            <li className='nav-menu-item'>Texto 1</li>
-                            <li className='nav-menu-item'>Texto 2</li>
-                            <li className='nav-menu-item'>Texto 3</li>
-                            <li className='nav-menu-item'>Texto 4</li>
+                            <li className='nav-menu-item'>Sobre mi</li>
+                            <li className='nav-menu-item'>Servicios</li>
+                            <li className='nav-menu-item'>Contacto</li>
+                            <li className='nav-menu-item'>Ubicacion</li>
                             
                     </ul> 
                     
