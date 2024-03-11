@@ -42,22 +42,9 @@
    
 }
 
-.sobremi-foto img{
-    z-index: 1;
-    
-    position: relative;
 
-    left: 50px;
-    bottom: 10px;
-
-    width: 258px;
-    height: 407px;
-    
-    
-    
-}
 .sobremi-background{
-
+    z-index: 0;
     
     position: absolute;
     overflow: hidden;
@@ -93,7 +80,7 @@
     background-color: blueviolet;
     margin-top: 40px;
     color: white;
-    
+
     height: 50px;
     width: 150px;
 

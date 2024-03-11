@@ -1,4 +1,5 @@
 import './App.css'
+import { FotoFrase } from './components/FotoFrase.jsx'
 import { Header } from './components/HeaderP.jsx'
 import { Portada } from './components/Portada.jsx'
 import { Servicios } from './components/Services.jsx'
@@ -14,6 +15,7 @@ function App() {
       <Portada/>
       <Servicios/>
       <SobreMi/>
+      <FotoFrase/>
     </>
     
     
