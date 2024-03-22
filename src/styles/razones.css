@@ -1,4 +1,4 @@
-.sobremi{
+.razones{
     display: flex;
    
     justify-content: space-around;
@@ -11,7 +11,7 @@
       
 }
 
-.sobremi-div{
+.razones-div{
    display: flex;
    
    justify-content: space-around;
@@ -24,7 +24,7 @@
     
 }
 
-.sobremi-foto{
+.razones-foto{
     z-index: 1;
     
     position: relative;
@@ -39,11 +39,11 @@
     background-size: cover;
     background-position: center;
     
-   
+    
 }
 
 
-.sobremi-background{
+.razones-background{
     z-index: 0;
     
     position: relative;
@@ -55,10 +55,10 @@
     height: 407px;
     background-color: aquamarine;
 
-    
+    border-radius: 5px;
 }
 
-.sobremi-texto{
+.razones-texto{
     
 
     width: 640px;
@@ -68,16 +68,22 @@
     
     color: white;
 
+   
+
+
 }
-.sobremi h3{
+
+.razones h3{
     font-size: 30px;
     font-weight: lighter;
 }
-.sobremi-texto p{
+
+
+.razones-texto ul{
     margin-top: 15px;
 }
 
-.sobremi-texto button{
+.razones-texto button{
     border: 1px solid aquamarine;
     border-radius: 15px;
     background-color: blueviolet;
@@ -91,7 +97,7 @@
     font-size: 18px;
 }
 
-.sobremi-texto button:hover{
+.razones-texto button:hover{
     background-color: aquamarine;
     transition: 0.5s;
     color: black;
@@ -100,26 +106,26 @@
 }
 
 @media (max-width: 780px){
-    .sobremi-div{
+    .razones-div{
         flex-direction: column;
        
     }
 
-    .sobremi-background{
+    .razones-background{
         top: 2690px;
         left: 170px;
         width: 400px;
         height: 200px;
     }
 
-    .sobremi-foto{
+    .razones-foto{
         width: 400px;
         height: 300px;
 
         background-position:inherit;
     }
 
-    .sobremi-texto{
+    .razones-texto{
         display: flex;
         flex-direction: column;
 

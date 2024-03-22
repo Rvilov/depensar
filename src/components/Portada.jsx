@@ -1,5 +1,5 @@
 import "../styles/portada.css"
-
+import { BotonDegradado } from "./botones/BotonDegradado"
 
 export function Portada (){
     return(
@@ -8,10 +8,11 @@ export function Portada (){
            <div className="portada-cabecera">
                
                 <p className="portada-p">Servicios de Psicologia para Adultos y Niños</p>
-                            
-                <span className="portada-a" href="">
-                    <a>Agenda ahora</a>
-                </span>
+               <BotonDegradado
+                frase="Agenda Ahora"
+               ></BotonDegradado>
+                         
+               
             </div>
 
         </div>
