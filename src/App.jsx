@@ -7,6 +7,7 @@ import { Razones } from './components/Razones.jsx'
 import { Servicios } from './components/Services.jsx'
 import { SobreMi } from './components/SobreMi.jsx'
 import { Inicia } from './components/Inicia.jsx'
+import { FooterD } from './components/FooterD.jsx'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Razones/>
       <Valores/>
       <Inicia/>
+      <FooterD/>
     </>
     
     

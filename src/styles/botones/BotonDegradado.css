@@ -4,7 +4,7 @@
     overflow: hidden;
     
     width: 150px;
-    background: aquamarine;
+    background: #66fecb    ;
     background-size: 400%;
     height: 50px;
 
@@ -44,7 +44,7 @@
     border-radius: inherit;
     background: linear-gradient(
       82.3deg,
-      rgba(150, 93, 233, 1) 10.8%,
+      rgb(153, 102, 203) 10.8%,
       rgb(142, 15, 253) 94.3%
     );
     transition: all 0.475s;

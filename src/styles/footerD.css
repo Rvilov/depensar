@@ -1,0 +1,36 @@
+.footerD{
+    height: 250px;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+
+    
+    
+}
+
+.footer-div-datos{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px 170px 0px 130px
+
+}
+
+.footer-div-logo{
+    width: 150px;
+    height: 150px;
+
+    border: 1px solid black;
+
+    
+}
+
+.footer-div-agendar{
+width: 450px;
+    padding: 40px;
+    
+}

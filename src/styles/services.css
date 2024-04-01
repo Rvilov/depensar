@@ -42,7 +42,7 @@
 
     text-align: justify;
 
-    background-color: #8c43da;
+    background-color: #9966cb    ;
     color: white
 
     
@@ -54,7 +54,7 @@
 .servicios-button{
     border: none;
     border-radius: 15px;
-    background-color: aquamarine;
+    background-color: #66fecb;
     margin-top: 60px;
     
     height: 50px;
@@ -65,7 +65,7 @@
 }
 
 .servicios-button:hover{
-    background-color: blueviolet;
+    background-color: #9966cb;
     transition: 0.5s;
     color: white;
 }

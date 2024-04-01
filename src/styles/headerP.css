@@ -1,6 +1,6 @@
 .header{
    
-    background-color: blueviolet;
+    background-color: #9966cb;
     color: white;
     height: 80px;
     width: 100%;
@@ -95,7 +95,7 @@ img{
         flex-direction: column;
         align-items: center;
         
-        background-color: blueviolet;
+        background-color: #9966cb;
 
         position: fixed;
         right:0;

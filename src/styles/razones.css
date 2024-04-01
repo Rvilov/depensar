@@ -7,7 +7,7 @@
     width: auto;
     height: 600px;
      
-     background: #8a2be2;
+     background: #9966cb;
       
 }
 
@@ -20,7 +20,7 @@
    width: 1100px;
    height: 500px;
     
-    background: blueviolet;
+    background: #9966cb;
     
 }
 
@@ -53,7 +53,7 @@
     top: 40px;
     width: 258px;
     height: 407px;
-    background-color: aquamarine;
+    background-color: #66fecb;
 
     border-radius: 5px;
 }
@@ -84,9 +84,9 @@
 }
 
 .razones-texto button{
-    border: 1px solid aquamarine;
+    border: 1px solid #66fecb;
     border-radius: 15px;
-    background-color: blueviolet;
+    background-color: #9966cb;    ;
     margin-top: 40px;
     color: white;
 
@@ -98,11 +98,11 @@
 }
 
 .razones-texto button:hover{
-    background-color: aquamarine;
+    background-color: #66fecb;
     transition: 0.5s;
     color: black;
 
-    border: 1px solid aquamarine;
+    border: 1px solid #66fecb;
 }
 
 @media (max-width: 780px){
