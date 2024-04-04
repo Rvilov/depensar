@@ -1,0 +1,21 @@
+.boton-secundario{
+    border: 1px solid #66fecb;
+    border-radius: 15px;
+    background-color: #9966cb;
+    margin-top: 40px;
+    color: white;
+
+    height: 50px;
+    width: 150px;
+
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+}
+
+.boton-secundario:hover{
+    background-color: #66fecb;
+    transition: 0.5s;
+    color: black;
+
+    border: 1px solid #66fecb;
+}

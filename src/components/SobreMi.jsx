@@ -1,5 +1,7 @@
 import "../styles/sobreMi.css";
 
+import { BotonSecundario } from "./botones/BotonSegundario";
+
 
 export const SobreMi = () =>{
     return(
@@ -25,9 +27,7 @@ export const SobreMi = () =>{
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita iure obcaecati quis ea, perferendis impedit, architecto ratione sequi repudiandae nostrum illum possimus molestias dolor non? Impedit, voluptatibus. Temporibus ipsum repellat sint reprehenderit esse eaque quae asperiores dicta, recusandae distinctio nam pariatur, quaerat voluptatibus quas doloribus labore qui? Eius temporibus incidunt tempora eveniet a obcaecati rem in fugit esse, repellat magni sequi libero iusto ipsum qui praesentium mollitia assumenda quod culpa. 
                     </p>
-                    <button>
-                        Saber Mas
-                    </button>
+                    <BotonSecundario frase={"Saber Mas"}></BotonSecundario>
                 </div>
             </div>
         

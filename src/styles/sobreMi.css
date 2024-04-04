@@ -3,7 +3,7 @@
 .sobremi-div{
    display: flex;
    
-   justify-content: center;
+  justify-content: center;
    align-items: center;
 
    width: auto;
@@ -16,7 +16,9 @@
 .sobremi-foto{
     height: 600px;
 
-    width: auto;
+    width: 600px;
+
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +31,8 @@
     
     position: relative;
 
-    left: 200px;
+    left: 170px;
+    bottom: 20px;
     width: 300px;
     height: 407px;
     
@@ -45,11 +48,10 @@
     z-index: 0;
     
     position: relative;
-    overflow: hidden;
-
     
-    right: 160px;
-    top: 50px;
+    
+    right: 180px;
+    top: 30px;
     width: 300px;
     height: 407px;
     background-color: #66fecb;
@@ -63,8 +65,10 @@
     justify-content: center;
     flex-direction: column;
 
-    width: 740px;
-    height: 500px;;
+    width: 780px;
+    height: 500px;
+
+    padding-right: 120px;
    
     
 
@@ -79,27 +83,7 @@
     margin-top: 15px;
 }
 
-.sobremi-texto button{
-    border: 1px solid #66fecb;
-    border-radius: 15px;
-    background-color: #9966cb;
-    margin-top: 40px;
-    color: white;
 
-    height: 50px;
-    width: 150px;
-
-    font-family: "Fredoka", sans-serif;
-    font-size: 18px;
-}
-
-.sobremi-texto button:hover{
-    background-color: #66fecb;
-    transition: 0.5s;
-    color: black;
-
-    border: 1px solid #66fecb;
-}
 
 @media (max-width: 780px){
     .sobremi-div{
