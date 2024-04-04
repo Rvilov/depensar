@@ -1,6 +1,6 @@
 .valores{
-    height: 760px;
-    padding: 45px;
+    height: 720px;
+    padding: 40px 100px 40px 100px;
     display: flex;
     align-items: center;
     flex-direction: column;

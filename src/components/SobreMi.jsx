@@ -5,16 +5,19 @@ export const SobreMi = () =>{
     return(
 
         
-        <div className="sobremi">
+       
             <div className="sobremi-div">
                 
+                
                 <div className="sobremi-foto">
-                
-                </div>
-                <div className="sobremi-background">
+                    <div className="sobremi-div-foto">
+                    
+                    </div>
+                    <div className="sobremi-div-background">
 
+                    </div>
                 </div>
-                
+                               
                 <div className="sobremi-texto">
                     <h3>
                         Sobre Mi
@@ -27,7 +30,7 @@ export const SobreMi = () =>{
                     </button>
                 </div>
             </div>
-        </div>
+        
     )
 
 
