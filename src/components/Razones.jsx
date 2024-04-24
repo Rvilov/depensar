@@ -2,7 +2,7 @@ import "../styles/razones.css"
 
 export const Razones = () => {
     return(
-        <div className="razones">
+        
         <div className="razones-div">
            
             
@@ -18,19 +18,19 @@ export const Razones = () => {
                 <li>Punto 5</li>
                 <li>Punto 6</li>
                </ul>
-                <button>
-                    Saber Mas
-                </button>
+
             </div>
 
-            
             <div className="razones-foto">
-            
-            </div>
-            <div className="razones-background">
+                <div className="razones-div-foto">
     
-            </div> 
+                </div> 
+                <div className="razones-div-background">
+    
+                </div> 
+            </div>
+            
         </div>
-    </div>
+   
     )
 }

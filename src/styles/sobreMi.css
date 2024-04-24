@@ -36,7 +36,7 @@
     width: 300px;
     height: 407px;
     
-    background-image: url(../assets/4.jpg);
+    background-image: url(../assets/3.jpg);
     background-size: cover;
     background-position: center;
     
@@ -75,12 +75,14 @@
     color: white;
 
 }
-.sobremi h3{
-    font-size: 30px;
+.sobremi-texto h3{
+    font-size: 40px;
     font-weight: lighter;
 }
 .sobremi-texto p{
     margin-top: 15px;
+    font-size: 17px;
+    font-weight: lighter;
 }
 
 

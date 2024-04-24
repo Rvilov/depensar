@@ -1,4 +1,5 @@
 import "../styles/services.css"
+import { BotonSecundarioWhite } from "./botones/BotonSegundario"
 
 export function Servicios(){
     return(
@@ -13,9 +14,9 @@ export function Servicios(){
             <div className="servicios-tipos">
                 <div className="tipo">
                     <span>
-                        <strong>
+                        
                         Terapia de pareja    
-                        </strong>
+                       
                     </span>
 
                     <p>
@@ -23,20 +24,20 @@ export function Servicios(){
                     </p>
                 </div>
                 <div className="tipo">
-                    <span><strong>Terapia para niños</strong></span>
+                    <span>Terapia para niños</span>
                     <p>
                     La terapia infantil o psicoterapia infantil tiene como objetivo potenciar el bienestar emocional y social de los niños. Se diferencia de la terapia de adultos en que utiliza el juego como elemento clave. Los terapeutas también involucran a la familia en el proceso. Las técnicas se adaptan a la etapa evolutiva de cada niño y se centran en áreas como emociones, conductas y habilidades sociales
                     </p>
                 </div>
                 <div className="tipo">
-                   <span> <strong>Terapia para adolecentes y adultos </strong></span>
+                   <span> Terapia para adolecentes y adultos </span>
                    <p>
                    La psicoterapia para adolescentes y adultos se dedica al tratamiento de malestares psicológicos. Puede adoptar diversas formas, como la reestructuración cognitiva, que identifica y cambia patrones de pensamiento disfuncionales. Otra técnica es el entrenamiento asertivo, que ayuda a gestionar relaciones personales y mantener una autoestima adecuada. Además, la exposición controlada es útil para tratar problemas de ansiedad
                    </p>
                 </div>
             </div>
 
-            <button className="servicios-button">Ver mas</button>
+            <BotonSecundarioWhite className=".servicios-button" frase={"Ver mas"}></BotonSecundarioWhite>
         </div>
     )
 }

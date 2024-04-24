@@ -7,7 +7,7 @@
 
     height: 50px;
     width: 150px;
-
+    cursor: pointer;
     font-family: "Fredoka", sans-serif;
     font-size: 18px;
 }
@@ -18,4 +18,26 @@
     color: black;
 
     border: 1px solid #66fecb;
+}
+
+.boton-secundario-white{
+    border: 1px solid #9966cb;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 40px;
+    color: black;
+
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+}
+
+.boton-secundario-white:hover{
+    background-color: #9966cb;
+    transition: 0.5s;
+    color: white;
+
+    border: 1px solid #9966cb;
 }

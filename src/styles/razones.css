@@ -1,80 +1,82 @@
-.razones{
-    display: flex;
-   
-    justify-content: space-around;
-    align-items: center;
- 
-    width: auto;
-    height: 600px;
-     
-     background: #9966cb;
-      
-}
+
 
 .razones-div{
-   display: flex;
+    display: flex;
    
-   justify-content: space-around;
-   align-items: center;
-
-   width: 1100px;
-   height: 500px;
-    
-    background: #9966cb;
-    
+    justify-content: center;
+     align-items: center;
+  
+     width: auto;
+     height: 600px;
+      
+     background: #9966cb;
 }
 
 .razones-foto{
+    height: 600px;
+
+    width: 600px;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+.razones-div-foto{
     z-index: 1;
     
     position: relative;
 
-    left: 50px;
-    bottom: 10px;
-
-    width: 258px;
+    left: 170px;
+    bottom: 20px;
+    width: 300px;
     height: 407px;
     
     background-image: url(../assets/4.jpg);
     background-size: cover;
     background-position: center;
-    
-    
 }
 
-
-.razones-background{
+.razones-div-background{
     z-index: 0;
     
     position: relative;
-    overflow: hidden;
-
-    right: 240px;
-    top: 40px;
-    width: 258px;
+    
+    
+    right: 180px;
+    top: 30px;
+    width: 300px;
     height: 407px;
     background-color: #66fecb;
 
-    border-radius: 5px;
+
 }
 
 .razones-texto{
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-    width: 640px;
-    height: 286px;;
-    
-    padding: 30px;
-    
-    color: white;
+    width: 780px;
+    height: 500px;
 
+    padding-left: 120px;
    
+    
+
+    color: white;
 
 
 }
 
-.razones h3{
-    font-size: 30px;
+.razones-texto h3{
+    font-size: 40px;
     font-weight: lighter;
 }
 
@@ -83,27 +85,7 @@
     margin-top: 15px;
 }
 
-.razones-texto button{
-    border: 1px solid #66fecb;
-    border-radius: 15px;
-    background-color: #9966cb;    ;
-    margin-top: 40px;
-    color: white;
 
-    height: 50px;
-    width: 150px;
-
-    font-family: "Fredoka", sans-serif;
-    font-size: 18px;
-}
-
-.razones-texto button:hover{
-    background-color: #66fecb;
-    transition: 0.5s;
-    color: black;
-
-    border: 1px solid #66fecb;
-}
 
 @media (max-width: 780px){
     .razones-div{

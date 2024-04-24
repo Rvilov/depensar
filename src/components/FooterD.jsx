@@ -1,4 +1,5 @@
 import "../styles/footerD.css"
+import { BotonSecundarioWhite } from "./botones/BotonSegundario"
 
 export const FooterD = () =>{
     return(
@@ -21,9 +22,7 @@ export const FooterD = () =>{
                 <h2>
                     Agenda ahora mismo una consulta de 15 minutos
                 </h2>
-                <a href="">
-                    Agenda ahora
-                </a>
+               <BotonSecundarioWhite frase="Agenda Ahora"></BotonSecundarioWhite>
             </div>
             
         </div>

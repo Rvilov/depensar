@@ -5,7 +5,7 @@
     justify-content: center;
     height: 450px;
     width: auto;
-
+    
 
     background-image: url(../assets/consultorio.jpg);
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 }
 
 .frase{
-    z-index: 3;
+    z-index: 1;
     display: flex;
     position: relative;
     justify-content: center;
@@ -30,7 +30,10 @@
 
     padding: 50px;
 
-    
-    background-color: white;
+    font-weight: lighter;
+    background-color: #66fecb;
 }
 
+.frase h4{
+    font-weight: normal;
+}
