@@ -1,5 +1,5 @@
-import "../styles/portada.css"
-import { BotonDegradado } from "./botones/BotonDegradado"
+import "../../styles/inicio/portada.css"
+import { BotonDegradado } from "../botones/BotonDegradado"
 
 export function Portada (){
     return(

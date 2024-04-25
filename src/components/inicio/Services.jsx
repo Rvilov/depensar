@@ -1,5 +1,5 @@
-import "../styles/services.css"
-import { BotonSecundarioWhite } from "./botones/BotonSegundario"
+import "../../styles/inicio/services.css"
+import { BotonSecundarioWhite } from "../botones/BotonSegundario"
 
 export function Servicios(){
     return(

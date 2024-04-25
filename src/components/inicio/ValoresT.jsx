@@ -1,4 +1,4 @@
-import "../styles/valores.css"
+import "../../styles/inicio/valores.css"
 
 export const Valores = () => {
     return(

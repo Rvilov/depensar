@@ -1,19 +1,18 @@
 
 
-.sobremi-div{
-   display: flex;
+.razones-div{
+    display: flex;
    
-  justify-content: center;
-   align-items: center;
-
-   width: auto;
-   height: 600px;
-    
-   background: #9966cb;
-    
+    justify-content: center;
+     align-items: center;
+  
+     width: auto;
+     height: 600px;
+      
+     background: #9966cb;
 }
 
-.sobremi-foto{
+.razones-foto{
     height: 600px;
 
     width: 600px;
@@ -23,10 +22,11 @@
     justify-content: center;
     align-items: center;
 
-        
+    
+    
 }
 
-.sobremi-div-foto{
+.razones-div-foto{
     z-index: 1;
     
     position: relative;
@@ -36,15 +36,12 @@
     width: 300px;
     height: 407px;
     
-    background-image: url(../assets/3.jpg);
+    background-image: url(../../assets/inicio/4.jpg);
     background-size: cover;
     background-position: center;
-    
-   
 }
 
-
-.sobremi-div-background{
+.razones-div-background{
     z-index: 0;
     
     position: relative;
@@ -56,58 +53,61 @@
     height: 407px;
     background-color: #66fecb;
 
-    
+
 }
 
-.sobremi-texto{
+.razones-texto{
     
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 
     width: 780px;
     height: 500px;
 
-    padding-right: 120px;
+    padding-left: 120px;
    
     
 
     color: white;
 
+
 }
-.sobremi-texto h3{
+
+.razones-texto h3{
     font-size: 40px;
     font-weight: lighter;
 }
-.sobremi-texto p{
+
+
+.razones-texto ul{
     margin-top: 15px;
-    font-size: 17px;
-    font-weight: lighter;
 }
 
 
 
 @media (max-width: 780px){
-    .sobremi-div{
+    .razones-div{
         flex-direction: column;
        
     }
 
-    .sobremi-background{
+    .razones-background{
         top: 2690px;
         left: 170px;
         width: 400px;
         height: 200px;
     }
 
-    .sobremi-foto{
+    .razones-foto{
         width: 400px;
         height: 300px;
 
         background-position:inherit;
     }
 
-    .sobremi-texto{
+    .razones-texto{
         display: flex;
         flex-direction: column;
 

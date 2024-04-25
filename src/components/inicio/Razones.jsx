@@ -1,4 +1,4 @@
-import "../styles/razones.css"
+import "../../styles/inicio/razones.css"
 
 export const Razones = () => {
     return(

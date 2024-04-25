@@ -1,4 +1,4 @@
-import "../styles/fotoFrase.css"
+import "../../styles/inicio/fotoFrase.css"
 
 export const FotoFrase = () =>{
     return(

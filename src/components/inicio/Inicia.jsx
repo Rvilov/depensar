@@ -1,5 +1,5 @@
-import "../styles/inicia.css"
-import { BotonDegradado } from "./botones/BotonDegradado"
+import "../../styles/inicio/inicia.css"
+import { BotonDegradado } from "../botones/BotonDegradado"
 export const Inicia = () => {
     return(
         <div className="inicia">

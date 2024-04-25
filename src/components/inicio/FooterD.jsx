@@ -1,5 +1,5 @@
-import "../styles/footerD.css"
-import { BotonSecundarioWhite } from "./botones/BotonSegundario"
+import "../../styles/inicio/footerD.css"
+import { BotonSecundarioWhite } from "../botones/BotonSegundario"
 
 export const FooterD = () =>{
     return(

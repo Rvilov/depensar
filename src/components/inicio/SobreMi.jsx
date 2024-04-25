@@ -1,6 +1,6 @@
-import "../styles/sobreMi.css";
+import "../../styles/inicio/sobreMi.css";
 
-import { BotonSecundario } from "./botones/BotonSegundario";
+import { BotonSecundario } from "../botones/BotonSegundario";
 
 
 export const SobreMi = () =>{
