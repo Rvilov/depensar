@@ -19,7 +19,7 @@ return (
         
         <nav id='nav'>
                     
-                    <span className="logo"><img src='https://i.ibb.co/9bJrpZ6/Para-Fondos-Oscuros-Version-3-Logo-Depensar.png' alt="dplogo"/></span>
+                    <span className="logo"></span>
                     <button className='nav-toggle'>
                             <FontAwesomeIcon icon={faBars} />
                     </button>

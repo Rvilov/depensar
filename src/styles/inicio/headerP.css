@@ -29,7 +29,12 @@
 .logo{
     color: white;
     padding: 12px 40px;
-    line-height: 80px;    
+    line-height: 80px; 
+    width: 150px;
+    background-position: center;
+    background-image: url(../../assets/dplogo.png); 
+    background-size:contain;
+    background-repeat: no-repeat; 
 }
 
 .nav-toggle{
@@ -106,22 +111,22 @@ img{
     .nav-menu{
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         
         background-color: #9966cb;
 
         position: fixed;
-        right:0;
+        left: 750px;
+        transition: left 0.5s;
         top: 60px;
-        
-        width: 40%;
+        width: 100%;
         height: calc(100% - 60px);
         overflow-y: auto;
 
         margin: 0;
         padding: 0 0 200px 0;
 
-        right: 100%;
-        transition: top 2s;
+        
         
     }
 
@@ -134,8 +139,8 @@ img{
     }
 
     .nav-visible{
-        right: 0;
-        
+        left: 0px;
+       
     }
 
 }

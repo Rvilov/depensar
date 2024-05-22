@@ -22,7 +22,7 @@ export const SobreMi = () =>{
                                
                 <div className="sobremi-texto">
                     <h3>
-                        Sobre Mi
+                        Sobre mi
                     </h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita iure obcaecati quis ea, perferendis impedit, architecto ratione sequi repudiandae nostrum illum possimus molestias dolor non? Impedit, voluptatibus. Temporibus ipsum repellat sint reprehenderit esse eaque quae asperiores dicta, recusandae distinctio nam pariatur, quaerat voluptatibus quas doloribus labore qui? Eius temporibus incidunt tempora eveniet a obcaecati rem in fugit esse, repellat magni sequi libero iusto ipsum qui praesentium mollitia assumenda quod culpa. 
