@@ -87,7 +87,7 @@
 }
 
 
-
+/* 
 @media (max-width: 780px){
     .sobremi-div{
         
@@ -121,6 +121,139 @@
         justify-content: center;
         padding: 0px 120px 0px 120px; 
         margin-bottom: 30px;
+
+        
+
+        
             }
     
+} */
+
+/* Teléfonos (max-width: 480px) */
+@media (max-width: 480px) {
+    .sobremi-div {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .sobremi-foto {
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sobremi-div-foto, .sobremi-div-background {
+        
+        
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .sobremi-texto {
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+    }
+
+    .sobremi-texto h3 {
+        font-size: 30px;
+    }
+
+    .sobremi-texto p {
+        font-size: 15px;
+    }
+}
+
+/* Tablets en orientación vertical (max-width: 768px) */
+@media (max-width: 768px) {
+    .sobremi-div {
+        flex-direction: column;
+        
+        height: auto;
+        padding: 20px;
+    }
+
+    .sobremi-foto {
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sobremi-div-background{
+       
+        top: 10px;
+        right: 90px;
+        width: 400px;
+        height: 200px;
+    }
+
+    .sobremi-div-foto{
+         
+        top: 30px;
+        left: 120px;
+        width: 400px;
+        height: 200px;
+
+    }
+
+    .sobremi-texto {
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+    }
+
+    .sobremi-texto h3 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .sobremi-texto p {
+        font-size: 16px;
+    }
+}
+
+/* Tablets en orientación horizontal (min-width: 768px) y (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sobremi-div {
+        flex-direction: row;
+        height: auto;
+        padding: 20px;
+    }
+
+    .sobremi-foto {
+        height: auto;
+        width: 50%;
+    }
+    .sobremi-div-background{
+       
+        top: 30px;
+        right: 90px;
+        width: 500px;
+        height: 200px;
+    }
+
+    .sobremi-div-foto{
+                
+        left: 120px;
+        width: 500px;
+        height: 200px;
+
+        
+    }
+
+    .sobremi-texto {
+        width: 100%;
+        height: auto;
+        padding-right: 20px;
+    }
+
+    .sobremi-texto h3 {
+        font-size: 38px;
+    }
+
+    .sobremi-texto p {
+        font-size: 17px;
+    }
 }

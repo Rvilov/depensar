@@ -38,3 +38,109 @@ width: 450px;
     padding: 40px;
     
 }
+
+/* @media (max-width: 780px){
+    .footer-div-agendar{
+        width: 428px;
+            padding: 20px;
+            
+        }
+.footerD{
+    flex-direction: column;
+}
+
+} */
+
+
+/* Teléfonos (max-width: 480px) */
+@media (max-width: 480px) {
+    .footerD {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        height: auto;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .footer-div-datos {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .footer-div-logo {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .footer-div-agendar {
+        width: 100%;
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+/* Tablets en orientación vertical (max-width: 768px) */
+@media (max-width: 768px) {
+    .footerD {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        height: auto;
+    }
+
+    .footer-div-datos {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .footer-div-logo {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+
+    .footer-div-agendar {
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Tablets en orientación horizontal (min-width: 768px) y (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footerD {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+    }
+
+    .footer-div-datos {
+        margin: 0 100px;
+    }
+
+    .footer-div-logo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .footer-div-agendar {
+        width: 100%;
+        padding: 35px;
+
+        
+    }
+}

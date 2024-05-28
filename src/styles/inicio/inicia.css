@@ -7,3 +7,27 @@
     justify-content: space-around;
     flex-direction: column;
 }
+
+/* Teléfonos (max-width: 480px) */
+@media (max-width: 480px) {
+    .inicia{
+        height: 300px;
+        
+        justify-content: space-between;
+        padding: 30;
+    }
+
+    #inicia-texto{
+        text-align: center;
+    }
+}
+
+/* Tablets en orientación vertical (max-width: 768px) */
+@media (max-width: 768px) {
+
+}
+
+/* Tablets en orientación horizontal (min-width: 768px) y (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}

@@ -6,7 +6,7 @@ export const Inicia = () => {
             <h1>
                 Inicia ya!
             </h1>
-            <span>
+            <span id="inicia-texto">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit odio eos sint, provident quasi eveniet?  
             </span>
             <BotonDegradado  frase="Agenda ahora">

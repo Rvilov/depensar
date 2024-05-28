@@ -67,7 +67,7 @@
 
 
 
-@media (max-width: 780px){
+/* @media (max-width: 780px){
 
     .servicios-div{
         height: auto;
@@ -87,5 +87,131 @@
     .tipo{
         margin-top: 60px;
         
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    .servicios-div h3{
+        text-align: center;
+       
+    }
+
+} */
+
+@media (max-width: 480px) {
+    .servicios-div {
+        height: auto;
+        padding: 20px;
+    }
+
+    .servicios-titulo1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .servicios-titulo2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .servicios-tipos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tipo {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    .tipo span {
+        font-size: 24px;
+    }
+
+    .tipo p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+/* Tablets en orientación vertical (max-width: 768px) */
+@media (max-width: 768px) {
+    .servicios-div {
+        height: auto;
+        padding: 30px;
+    }
+
+    .servicios-titulo1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .servicios-titulo2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .servicios-tipos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tipo {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+        padding: 18px;
+    }
+
+    .tipo span {
+        font-size: 26px;
+    }
+
+    .tipo p {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+}
+
+/* Tablets en orientación horizontal (min-width: 768px) y (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .servicios-div {
+        height: auto;
+        padding: 40px;
+    }
+
+    .servicios-titulo1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .servicios-titulo2 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .servicios-tipos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .tipo {
+        width: 45%;
+        height: auto;
+        margin-top: 25px;
+        padding: 20px;
+    }
+
+    .tipo span {
+        font-size: 28px;
+    }
+
+    .tipo p {
+        font-size: 17px;
+        margin-top: 25px;
     }
 }

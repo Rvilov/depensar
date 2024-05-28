@@ -17,6 +17,7 @@
    
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
     max-width: 992px;
     margin: 0 auto;
@@ -88,7 +89,7 @@ img{
     height: 55px;
 }
 
-@media (max-width: 780px){
+/* @media (max-width: 780px){
 
     body{
         padding-top: 70px
@@ -104,9 +105,8 @@ img{
         line-height: 60px;
         
     }
-    #nav{
-        height: 60px;
-        
+    .header{
+        width: 430px;
     }
     .nav-menu{
         flex-direction: column;
@@ -145,3 +145,142 @@ img{
 
 }
 
+ */
+/* Teléfonos (max-width: 480px) */
+@media (max-width: 480px) {
+
+    
+    body{
+        padding-top: 60px;
+    }
+    
+    .header{
+        height: 50px;
+        width: 100%;
+    }
+    #nav{
+        height: 60px;
+    }
+    .logo{
+      
+       margin-left: 15px;
+       width: 120px;
+       height: 52px;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #9966cb;
+        position: fixed;
+        left: 100%;
+        transition: left 0.5s;
+        top: 50px;
+        width: 100%;
+        height: calc(100% - 50px);
+        overflow-y: auto;
+        margin: 0;
+        padding: 0 0 200px 0;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+
+    .nav-menu-item{
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    .nav-visible{
+        left: 0;
+    }
+}
+
+/* Tablets en orientación vertical (max-width: 768px) */
+@media (max-width: 768px) {
+    body{
+        padding-top: 70px;
+    }
+    
+    .header{
+        height: 60px;
+    }
+
+    .logo{
+        font-size: 25px;
+        padding: 2px 20px;
+        line-height: 60px;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #9966cb;
+        position: fixed;
+        left: 100%;
+        transition: left 0.5s;
+        top: 60px;
+        width: 100%;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        margin: 0;
+        padding: 0 0 200px 0;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+
+    .nav-menu-item{
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    .nav-visible{
+        left: 0;
+    }
+}
+
+/* Tablets en orientación horizontal (min-width: 768px) y (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        padding-top: 80px;
+    }
+
+    .header{
+        height: 70px;
+    }
+
+    .logo{
+        font-size: 28px;
+        padding: 10px 30px;
+        line-height: 70px;
+    }
+
+    .nav-menu{
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: transparent;
+        position: static;
+        width: auto;
+        height: auto;
+        overflow: visible;
+        padding: 0;
+    }
+
+    .nav-toggle{
+        display: none;
+    }
+
+    .nav-menu-item{
+        line-height: 70px;
+        font-size: 22px;
+    }
+
+    .nav-visible{
+        left: 0;
+    }
+}
