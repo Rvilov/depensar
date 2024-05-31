@@ -11,12 +11,11 @@ export const Razones = () => {
                     Razones para asistir a terapia
                 </h3>
                <ul>
-                <li>Punto 1</li>
-                <li>Punto 2</li>
-                <li>Punto 3</li>
-                <li>Punto 4</li>
-                <li>Punto 5</li>
-                <li>Punto 6</li>
+                <li>Manejo del Estrés y la Ansiedad</li>
+                <li>Mejora de las Relaciones Interpersonales</li>
+                <li>Desarrollo Personal y Autoconocimiento</li>
+                <li>Superación de Traumas y Duelo</li>
+              
                </ul>
 
             </div>

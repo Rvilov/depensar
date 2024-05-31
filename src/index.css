@@ -9,11 +9,17 @@ html{
 
 
 body{
-  font-family: "Fredoka", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  font-weight: weight;
   font-style: normal;
-  font-variation-settings:    "wdth" 100;
-  
+  font-variation-settings: "wdth" 100;
+  --font-xs: 0.5em;
+    --font-sm: 0.8em;
+    --font-md: 1em;
+    --font-lg: 1.25em;
+    --font-xl: 1.5em;
+    --font-xll: 2em;
 }
 
 a{
