@@ -90,63 +90,6 @@ img{
     height: 55px;
 }
 
-/* @media (max-width: 780px){
-
-    body{
-        padding-top: 70px
-    }
-    
-    .header{
-        height: 60px;
-    }
-
-    .logo{
-        font-size: 25px;
-        padding: 2px 20px 2px 20px;
-        line-height: 60px;
-        
-    }
-    .header{
-        width: 430px;
-    }
-    .nav-menu{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-        background-color: #9966cb;
-
-        position: fixed;
-        left: 750px;
-        transition: left 0.5s;
-        top: 60px;
-        width: 100%;
-        height: calc(100% - 60px);
-        overflow-y: auto;
-
-        margin: 0;
-        padding: 0 0 200px 0;
-
-        
-        
-    }
-
-    .nav-toggle{
-        display: block;
-    }
-
-    .nav-menu-item{
-        line-height: 70px;
-    }
-
-    .nav-visible{
-        left: 0px;
-       
-    }
-
-}
-
- */
 /* Teléfonos (max-width: 480px) */
 @media (max-width: 480px) {
 
@@ -210,9 +153,7 @@ img{
     }
 
     .logo{
-        font-size: 25px;
-        padding: 2px 20px;
-        line-height: 60px;
+        height: 50px;
     }
 
     .nav-menu{
@@ -243,6 +184,10 @@ img{
     .nav-visible{
         left: 0;
     }
+
+    #nav{
+        height: 60px;
+    }
 }
 
 /* Tablets en orientación horizontal (min-width: 768px) y (max-width: 1024px) */
@@ -256,9 +201,7 @@ img{
     }
 
     .logo{
-        font-size: 28px;
-        padding: 10px 30px;
-        line-height: 70px;
+        height: 50px;
     }
 
     .nav-menu{
@@ -284,4 +227,10 @@ img{
     .nav-visible{
         left: 0;
     }
+
+    #nav{
+        height: 70px;
+    }
+
+    
 }

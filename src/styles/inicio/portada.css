@@ -40,7 +40,14 @@
 
 
 
-@media (max-width: 780px){
+
+@media (max-width: 480px) {
+
+   
+}
+ /* Tablets en orientación vertical (max-width: 768px) */
+@media (max-width: 768px) {
+
     .portada{
         margin-top: -11px;
         left: 10px;
@@ -49,4 +56,13 @@
     .portada-cabecera{
         left: 50px;
     }
+}
+    
+
+/* Tablets en orientación horizontal (min-width: 768px) y (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .portada{
+        margin-top: -10px;
+    }
+
 }

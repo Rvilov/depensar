@@ -25,6 +25,22 @@
     
 }
 
+.razones-texto ul{
+    list-style-type: none;
+}
+
+.razones-texto ul li{
+    background-image: url("../../assets/inicio/icons8-punto-30.png");
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+
+    font-size: 20px;
+    margin-bottom: 10px;    
+    
+}
+
 .razones-div-foto{
     z-index: 1;
     
@@ -179,7 +195,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .razones-div {
         flex-direction: row;
-        height: auto;
+        height: 500px;
         padding: 20px;
     }
 
@@ -188,22 +204,31 @@
         width: 50%;
     }
 
-    .razones-div-foto, .razones-div-background {
-        position: relative;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 400px;
-        margin-bottom: 20px;
+    .razones-div-foto{
+        left: 120px;
+        width: 500px;
+        height: 200px;
     }
+    
+    
+        
+    .razones-div-background {
+        left: -30px;
+        top: 20px;
+        width: 500px;
+        height: 200px;
+
+        }
 
     .razones-texto {
         width: 100%;
         height: auto;
-        padding-left: 20px;
+        padding-left: 30px;
+        
     }
 
     .razones-texto h3 {
         font-size: 38px;
+        text-align: center;
     }
 }
