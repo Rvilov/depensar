@@ -14,6 +14,7 @@
     
     color: black;
     cursor: pointer;
+    
 }
 
 .portada-a:hover::before{
@@ -25,11 +26,17 @@
 .portada-a a{
     position: relative;
     z-index: 1;
-    top: 13px;
-    left: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
     font-size: 18px;
     width: 150px;
     height: 100%;
+    text-decoration: none;
+    color: black;
+    transition: 0.475s;
 }
 
 .portada-a::before{
@@ -48,12 +55,19 @@
       rgb(142, 15, 253) 94.3%
     );
     transition: all 0.475s;
+    
+    
    
 }
 
 
-.portada-a:hover{
+.portada-a a:hover{
     color: white;
     
     transition: all 0.475s;
+
+   
 }
+
+
+

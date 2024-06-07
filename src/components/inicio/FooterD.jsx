@@ -22,7 +22,8 @@ export const FooterD = () =>{
                 <h2>
                     Agenda ahora mismo una consulta de 15 minutos
                 </h2>
-               <BotonSecundarioWhite frase="Agenda Ahora"></BotonSecundarioWhite>
+               <BotonSecundarioWhite frase="Agenda ahora"
+               ></BotonSecundarioWhite>
             </div>
             
         </div>
