@@ -1,4 +1,4 @@
-export function SobreDerlis(){
+export function Contacto(){
     return(
         <div>
             ENPROCESO

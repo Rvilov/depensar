@@ -1,7 +1,7 @@
 import '../../styles/inicio/headerP.css' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-
+import {NavLink} from 'react-router-dom'
 
 export function Header(){
     window.onload=function(){
@@ -24,10 +24,10 @@ return (
                             <FontAwesomeIcon icon={faBars} />
                     </button>
                     <ul className='nav-menu'>
-                            <li className='nav-menu-item'><a href="">Inicio</a></li>
-                            <li className='nav-menu-item'><a href="">Sobre mi</a></li>
-                            <li className='nav-menu-item'><a href="">Servicios</a></li>
-                            <li className='nav-menu-item'><a href="">Contacto</a></li>
+                            <li className='nav-menu-item'><NavLink to="depensar/inicio">INICIO</NavLink></li>
+                            <li className='nav-menu-item'><NavLink to="depensar/sobre_mi">SOBRE MI</NavLink></li>
+                            <li className='nav-menu-item'><NavLink to="depensar/servicios">SERVICIOS</NavLink></li>
+                            <li className='nav-menu-item'><NavLink to="depensar/contacto">CONTACTO</NavLink></li>
                             
                     </ul> 
                     
