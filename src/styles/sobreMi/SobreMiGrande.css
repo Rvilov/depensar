@@ -1,0 +1,43 @@
+
+.sobremi-grande-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: row;
+    margin-top: 80px;
+
+    height: 600px;
+    width: 100%;
+}
+
+.sobremi-grande-foto{
+    background: url("../../assets/inicio/3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    height: 100%;
+    width: 100%;
+
+    
+    
+}
+
+.sobremi-grande-texto{
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    flex-direction: column;
+    color: #161616;    
+
+    width: 2000px;
+    height: 400px;
+
+    padding: 120px;
+}
+
+.sobremi-grande-texto h3{
+    margin-bottom: 10px;
+}

@@ -25,7 +25,7 @@ export const SobreMi = () =>{
                         Sobre mi
                     </h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita iure obcaecati quis ea, perferendis impedit, architecto ratione sequi repudiandae nostrum illum possimus molestias dolor non? Impedit, voluptatibus. Temporibus ipsum repellat sint reprehenderit esse eaque quae asperiores dicta, recusandae distinctio nam pariatur, quaerat voluptatibus quas doloribus labore qui? Eius temporibus incidunt tempora eveniet a obcaecati rem in fugit esse, repellat magni sequi libero iusto ipsum qui praesentium mollitia assumenda quod culpa. 
+                    ¡Hola! Soy Derlis Lobo, psicóloga y fundadora de Depensar. Graduada en la Universidad Yacambú, me especialicé en detección, intervención y tratamiento psicológico. Desde 2019, me dedico a ayudar a personas a superar problemas emocionales. En 2024, inicié mi propia consulta, enfocándome en el bienestar emocional de adultos, adolescentes y niños. Mi objetivo es proporcionarte herramientas para afrontar desafíos y lograr un equilibrio emocional. 
                     </p>
                     <BotonSecundario frase={"Saber Mas"}></BotonSecundario>
                 </div>

@@ -1,0 +1,59 @@
+.experiencia{
+    width: auto;
+    height: 500px;
+    background-color: rgb(153, 103, 203);
+}
+
+.experiencia-div{
+    width: auto;
+    height: 500px;
+    background: url("../../assets/sobreMi/COVERWEB.png");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 80%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.experiencia-titulo-div{
+    width: 600px;
+    height: 250px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+    .experiencia-titulo-div h3{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .experiencia-titulo-div p{
+        margin-bottom: 20px;
+    }
+
+.experiencia-detalles-div{
+    font-size: 17px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; 
+}
+
+   .detalle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+   }
+
+   .detalle h2{
+    font-size: 40px;
+    color: #66fecb;
+   }
