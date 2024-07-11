@@ -10,7 +10,7 @@
     align-items: center;
 
     background: #e1cef3;
-    
+    color: #161616;
 }
 
 .footer-div-datos{
@@ -20,6 +20,14 @@
     margin: 0px 130px 0px 130px
 
 }
+
+    .footer-div-datos span{
+        margin-bottom: 5px;
+    }
+
+    .footer-div-datos h2{
+        margin-bottom: 5px;
+    }
 
 .footer-div-logo{
     width: 150px;
@@ -42,6 +50,27 @@
 .footer-div-agendar h2{
     margin-bottom: 15px;
 }
+
+.footer-div-redes{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+    .footer-div-redes img{
+        width: 35px;
+        height: 35px;
+        filter: invert(0%) sepia(55%) saturate(1519%) hue-rotate(354deg) brightness(77%) contrast(83%);
+       
+    }
+
+    .footer-div-redes img:hover{
+        
+        filter: brightness(0) saturate(100%) invert(67%) sepia(38%) saturate(7253%) hue-rotate(230deg) brightness(85%) contrast(85%);
+
+        scale: 105%; 
+        transition: 0.5s;
+    }
 /* @media (max-width: 780px){
     .footer-div-agendar{
         width: 428px;

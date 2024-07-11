@@ -16,7 +16,7 @@
     align-items: center;
     height: 560px;
     border-radius: 100px;
-    background-color: #e1cef3;
+    background-color: #ece4f3;
 }
 
 .servicios-tipos-titulo {
@@ -81,6 +81,7 @@
     .servicios-div {
         height: auto;
         padding: 20px 15px;
+        
     }
 
     .servicios-div-tipos {
@@ -127,6 +128,8 @@
     .servicios-div {
         height: auto;
         padding: 20px 30px;
+        
+        width: 100%;
     }
 
     .servicios-div-tipos {
@@ -156,7 +159,7 @@
 
     .tipo img {
         height: auto;
-        width: 120%;
+        width: 70%;
     }
 
     .tipo span {

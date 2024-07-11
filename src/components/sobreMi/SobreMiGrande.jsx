@@ -11,9 +11,7 @@ export const SobreMiGrande = () =>{
                 
                 
                 <div className="sobremi-grande-foto">
-                    <div className="sobremi-grande-div-foto">
-
-                    </div>
+                   
                 </div>
                                
                 <div className="sobremi-grande-texto">
@@ -21,7 +19,7 @@ export const SobreMiGrande = () =>{
                         Sobre Derlis
                     </h3>
                     <p>
-                    Mi nombre es Derlis Andreina Lobo Castro, fundadora de Depensar y licenciada en Psicología por la Universidad Yacambú, estado Lara, Venezuela. Complementé mi formación con un diplomado en Detección, Intervención y Tratamiento Psicológico. Mi pasión por la psicología clínica y de la salud me llevó a iniciar mi carrera en 2019, ayudando a personas a superar problemas emocionales con diversas técnicas psicológicas. 
+                    Mi nombre es Derlis Lobo, fundadora de Depensar y licenciada en Psicología por la Universidad Yacambú, estado Lara, Venezuela. Complementé mi formación con un diplomado en Detección, Intervención y Tratamiento Psicológico. Mi pasión por la psicología clínica y de la salud me llevó a iniciar mi carrera en 2019, ayudando a personas a superar problemas emocionales con diversas técnicas psicológicas. 
                     <br></br>
                     <br></br>
                     En 2024, abrí mi propia consulta, enfocándome en asesoramiento y atención psicológica a adultos, adolescentes y niños. Mi objetivo es proporcionar un espacio seguro donde mis pacientes puedan explorar y fortalecer su bienestar emocional. 

@@ -5,7 +5,7 @@ export const Valores = () => {
         <div className="valores">
 
         <h1 className="titulo">
-            Mis valores en la terapia
+            Mis valores en terapia
         </h1>  
         <div className="valores-div">
             <div className="div1 valor"> 

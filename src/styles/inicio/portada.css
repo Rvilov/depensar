@@ -40,19 +40,13 @@
 
 }
 
-
-
-
-@media (max-width: 480px) {
-
-   
-}
  /* Tablets en orientación vertical (max-width: 768px) */
 @media (max-width: 768px) {
 
     .portada{
         margin-top: -11px;
         left: 10px;
+        
     }
 
     .portada-cabecera{
