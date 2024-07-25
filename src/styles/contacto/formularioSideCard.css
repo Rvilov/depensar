@@ -1,0 +1,21 @@
+.formulario-info{
+    height: 500px;
+    width: 350px;
+    padding: 40px;  
+
+    background:url("../../assets/Contactame/Fondosidebar.png") ;
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 0px 17px 17px 0px
+}
+
+.formulario-info span{
+    margin-top: 30px;
+}
+
+.formulario-info img{
+    position: absolute;
+    height: 500px;
+}
