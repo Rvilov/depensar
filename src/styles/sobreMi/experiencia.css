@@ -57,3 +57,145 @@
     font-size: 40px;
     color: #66fecb;
    }
+
+   /* Teléfonos (max-width: 480px) */
+@media (max-width: 480px) {
+    .experiencia {
+        height: auto;
+    }
+
+    .experiencia-div {
+        flex-direction: column;
+        height: auto;
+        background-size: cover;
+        
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .experiencia-titulo-div {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .experiencia-titulo-div h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .experiencia-titulo-div p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .experiencia-detalles-div {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .detalle {
+        margin-bottom: 15px;
+    }
+
+    .detalle h2 {
+        font-size: 30px;
+    }
+}
+
+/* Tablets en orientación vertical (max-width: 768px) */
+@media (max-width: 768px) {
+    .experiencia {
+        height: auto;
+    }
+
+    .experiencia-div {
+        
+        flex-direction: column;
+        height: auto;
+        background-size: cover;
+        padding: 20px;
+    }
+
+    .experiencia-titulo-div {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .experiencia-titulo-div h3 {
+        font-size: 22px;
+        margin-bottom: 9px;
+    }
+
+    .experiencia-titulo-div p {
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+
+    .experiencia-detalles-div {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .detalle {
+        margin-bottom: 18px;
+    }
+
+    .detalle h2 {
+        font-size: 32px;
+    }
+}
+
+/* Tablets en orientación horizontal (min-width: 768px) y (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .experiencia {
+        height: auto;
+    }
+
+    .experiencia-div {
+        flex-direction: row;
+        height: 500px;
+        background-size: 80%;
+        padding: 40px;
+    }
+
+    .experiencia-titulo-div {
+        width: 50%;
+        height: auto;
+        padding: 20px;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .experiencia-titulo-div h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .experiencia-titulo-div p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .experiencia-detalles-div {
+        width: 50%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .detalle h2 {
+        font-size: 36px;
+    }
+}

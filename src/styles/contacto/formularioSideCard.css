@@ -19,3 +19,71 @@
     position: absolute;
     height: 500px;
 }
+
+/* Teléfonos (max-width: 480px) */
+@media (max-width: 480px) {
+    .formulario-info {
+        height: auto; 
+        width: 100%;  
+        padding: 20px; 
+        background-size: cover; 
+        border-radius: 0px 0px 17px 17px
+    }
+
+    .formulario-info span {
+        margin-top: 20px; 
+        font-size: 16px; 
+    }
+
+    .formulario-info img {
+        height: auto; 
+        max-width: 100%; 
+        position: relative; 
+        top: 0; 
+    }
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .formulario-info {
+        height: auto; 
+        width: 100%;  
+        padding: 30px; 
+        background-size: cover; 
+        border-radius: 0px 0px 17px 17px
+    }
+
+    .formulario-info span {
+        margin-top: 25px; 
+        font-size: 18px; 
+    }
+
+    .formulario-info img {
+        height: auto; 
+        max-width: 100%; 
+        position: relative;
+        top: 0; 
+    }
+}
+
+/* Tablets en orientación horizontal (min-width: 768px) y (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .formulario-info {
+        height: auto;
+        width: 100%;  
+        padding: 35px; 
+        background-size: cover; 
+        border-radius: 0; 
+    }
+    .formulario-info span {
+        margin-top: 25px; 
+        font-size: 18px; 
+    }
+
+    .formulario-info img {
+        height: auto; 
+        max-width: 100%; 
+        position: relative; 
+        top: 0; 
+    }
+}

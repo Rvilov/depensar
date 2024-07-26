@@ -41,3 +41,89 @@
 .servicios-texto1 h3{
     margin-bottom: 10px;
 }
+
+/* Teléfonos (max-width: 480px) */
+@media (max-width: 480px) {
+    .servicios-div1 {
+        flex-direction: column-reverse;
+        height: auto;
+        margin-top: 0px;
+        padding: 0;
+    }
+
+    .servicios-foto1 {
+        width: 100%;
+        height: 200px; 
+        background-size: cover;
+    }
+
+    .servicios-texto1 {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .servicios-texto1 h3 {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+}
+
+/* Tablets en orientación vertical (max-width: 768px) */
+@media (max-width: 768px) {
+    .servicios-div1 {
+        flex-direction: column-reverse;
+        height: auto;
+        margin-top: 0px;
+        padding: 0;
+    }
+
+    .servicios-foto1 {
+        width: 100%;
+        height: 300px; 
+        background-size: cover;
+    }
+
+    .servicios-texto1 {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: left;
+        align-items: center;
+    }
+
+    .servicios-texto1 h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Tablets en orientación horizontal (min-width: 768px) y (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .servicios-div1 {
+        flex-direction: row;
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    .servicios-foto1 {
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .servicios-texto1 {
+        width: 50%;
+        height: auto;
+        padding: 40px;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .servicios-texto1 h3 {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+}

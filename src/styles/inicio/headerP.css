@@ -74,7 +74,7 @@
     padding: 5px;
     border-radius: 10px;
 
-    width: 105px;
+    width: 100px;
     height: 50px;
 
     display: flex;
@@ -86,7 +86,7 @@
     
 
     width: 100px;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
     color: white;
 
@@ -95,7 +95,7 @@
     justify-content: center;
 
     text-decoration: none;
-    font-size: 19px;
+    font-size: 15px;
 }
 
    
@@ -175,7 +175,7 @@ img{
 /* Tablets en orientación vertical (max-width: 768px) */
 @media (max-width: 768px) {
     body{
-        padding-top: 70px;
+        padding-top: 60px;
     }
     
     .header{
@@ -272,7 +272,7 @@ img{
 
     .nav-menu-item{
         line-height: 70px;
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .nav-visible{
