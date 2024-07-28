@@ -137,24 +137,24 @@
 
     .sobremi-foto {
         height: auto;
-        width: 100%;
+        width: 600px;
         margin-bottom: 20px;
     }
 
     .sobremi-div-background{
        
         top: 10px;
-        right: 90px;
-        width: 400px;
-        height: 200px;
+        right: 170px;
+        width: 500px;
+        height: 400px;
     }
 
     .sobremi-div-foto{
          
         top: 30px;
-        left: 120px;
-        width: 400px;
-        height: 200px;
+        left: 170px;
+        width: 500px;
+        height: 400px;
 
     }
 

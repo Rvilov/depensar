@@ -37,7 +37,7 @@
     width: 150px;
     background-position: center;
     background-image: url(../../assets/dplogo.png); 
-    background-size:contain;
+    background-size: 100%;
     background-repeat: no-repeat; 
 }
 

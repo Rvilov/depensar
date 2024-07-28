@@ -1,40 +1,70 @@
-import '../../styles/inicio/headerP.css' 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-import {NavLink} from 'react-router-dom'
 
-export function Header(){
-    window.onload=function(){
-    const navToggle = document.querySelector(".nav-toggle")
-    const navMenu = document.querySelector(".nav-menu")
-    
-    navToggle.addEventListener("click", () => {
-        navMenu.classList.toggle("nav-visible")
-    })
-    }
-return (
+import { useEffect } from 'react';
+import '../../styles/inicio/headerP.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { NavLink } from 'react-router-dom';
 
-    
+export function Header() {
+  // Hook de efecto para manejar la adición y eliminación de eventos
+  useEffect(() => {
+    // Obtener los elementos necesarios del DOM
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    const navMenuItems = document.querySelectorAll('.nav-menu-item a');
+
+    // Función para alternar la visibilidad del menú
+    const toggleMenuVisibility = () => {
+      navMenu.classList.toggle('nav-visible');
+    };
+
+    // Función para manejar el scroll al top
+    const handleScrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth', // Esto asegura un scroll suave
+      });
+    };
+
+    // Añadir el evento al botón de menú
+    navToggle.addEventListener('click', toggleMenuVisibility);
+
+    // Añadir el evento a cada enlace de menú
+    navMenuItems.forEach((item) => {
+      item.addEventListener('click', handleScrollToTop);
+    });
+
+    // Limpiar los event listeners al desmontar el componente
+    return () => {
+      navToggle.removeEventListener('click', toggleMenuVisibility);
+      navMenuItems.forEach((item) => {
+        item.removeEventListener('click', handleScrollToTop);
+      });
+    };
+  }, []); // El array vacío asegura que el efecto se ejecute solo una vez al montar el componente
+
+  return (
     <header className='header'>
-        
-        <nav id='nav'>
-                    
-                    <span className="logo"></span>
-                    <button className='nav-toggle'>
-                            <FontAwesomeIcon icon={faBars} />
-                    </button>
-                    <ul className='nav-menu'>
-                            <li className='nav-menu-item'><NavLink to="depensar/inicio">INICIO</NavLink></li>
-                            <li className='nav-menu-item'><NavLink to="depensar/sobre_mi">SOBRE MI</NavLink></li>
-                            <li className='nav-menu-item'><NavLink to="depensar/servicios">SERVICIOS</NavLink></li>
-                            <li className='nav-menu-item'><NavLink to="depensar/contacto">CONTACTO</NavLink></li>
-                            
-                    </ul> 
-                    
-                
-        </nav>  
+      <nav id='nav'>
+        <span className='logo'></span>
+        <button className='nav-toggle'>
+          <FontAwesomeIcon icon={faBars} />
+        </button>
+        <ul className='nav-menu'>
+          <li className='nav-menu-item'>
+            <NavLink to='depensar/inicio'>INICIO</NavLink>
+          </li>
+          <li className='nav-menu-item'>
+            <NavLink to='depensar/sobre_mi'>SOBRE MI</NavLink>
+          </li>
+          <li className='nav-menu-item'>
+            <NavLink to='depensar/servicios'>SERVICIOS</NavLink>
+          </li>
+          <li className='nav-menu-item'>
+            <NavLink to='depensar/contacto'>CONTACTO</NavLink>
+          </li>
+        </ul>
+      </nav>
     </header>
-)
-
+  );
 }
-
