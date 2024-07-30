@@ -49,7 +49,7 @@ export function Servicios(){
                     </div>                
                 </div>
 
-                <BotonSecundarioWhite className=".servicios-button" frase={"Ver mas"}></BotonSecundarioWhite>
+                <BotonSecundarioWhite className=".servicios-button" frase={"Ver mas"} ruta={"servicios"}></BotonSecundarioWhite>
             </div>
 
            

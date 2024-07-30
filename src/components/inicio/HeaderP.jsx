@@ -13,6 +13,9 @@ export function Header() {
     const navMenu = document.querySelector('.nav-menu');
     const navMenuItems = document.querySelectorAll('.nav-menu-item a');
 
+    
+
+
     // Función para alternar la visibilidad del menú
     const toggleMenuVisibility = () => {
       navMenu.classList.toggle('nav-visible');
@@ -24,6 +27,9 @@ export function Header() {
         top: 0,
         behavior: 'smooth', // Esto asegura un scroll suave
       });
+
+           // Ocultar el menú
+           navMenu.classList.remove('nav-visible');
     };
 
     // Añadir el evento al botón de menú
@@ -32,6 +38,8 @@ export function Header() {
     // Añadir el evento a cada enlace de menú
     navMenuItems.forEach((item) => {
       item.addEventListener('click', handleScrollToTop);
+      navMenu.classList.toggle('nav-visible');
+      
     });
 
     // Limpiar los event listeners al desmontar el componente

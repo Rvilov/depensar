@@ -33,10 +33,10 @@ export const FooterD = () =>{
                 </span>
 
                 <div className="footer-div-redes">
-                    <a href="https://api.whatsapp.com/send?phone=584247449166&text=%C2%A1Hola!%20Estoy%20interesad%40%20en%20recibir%20informaci%C3%B3n%20acerca%20de%20las%20consultas%20psicol%C3%B3gicas."><img src={whatsapp} alt="Whatsapp" /></a>
-                   <a href="https://www.instagram.com/depensar_"><img src={instagram} alt="instagram" /></a>
-                    <a href="https://www.tiktok.com/@depensar_"><img src={tiktok} alt="tik-tok"/></a>
-                   <a href=""><img src={linkedin} alt="linkedin" /></a>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=584247449166&text=%C2%A1Hola!%20Estoy%20interesad%40%20en%20recibir%20informaci%C3%B3n%20acerca%20de%20las%20consultas%20psicol%C3%B3gicas."><img src={whatsapp} alt="Whatsapp" /></a>
+                   <a target="_blank" href="https://www.instagram.com/depensar_"><img src={instagram} alt="instagram" /></a>
+                    <a target="_blank" href="https://www.tiktok.com/@depensar_"><img src={tiktok} alt="tik-tok"/></a>
+                   <a target="_blank" href=""><img src={linkedin} alt="linkedin" /></a>
 
                 </div>
             </div>

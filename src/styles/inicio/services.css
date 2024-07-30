@@ -14,7 +14,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 560px;
+    height: 600px;
+    width: 1200px;
     border-radius: 100px;
     background-color: #ece4f3;
 }
@@ -28,13 +29,11 @@
 
 .servicios-tipos-titulo span {
     font-size: 20px;
-    font-weight: lighter;
 }
 
 .servicios-tipos-titulo h3 {
     font-size: 25px;
     margin-top: 10px;
-    font-weight: normal;
 }
 
 .servicios-tipos {
@@ -55,7 +54,7 @@
     padding: 35px 42px;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: #161616;
 }
 
 .tipo img {
@@ -65,15 +64,15 @@
 
 .tipo span {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
+    font-weight: bold;
 }
 
 .tipo p {
     text-align: justify;
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 10px;
-    font-weight: lighter;
 }
 
 /* Teléfonos (max-width: 480px) */
@@ -111,7 +110,7 @@
 
     .tipo img {
         height: auto;
-        width: 80%;
+        width: 100%;
     }
 
     .tipo span {
@@ -151,7 +150,7 @@
     }
 
     .tipo {
-        width: 80%;
+        width: 110%;
         height: auto;
         margin-top: 20px;
         padding: 25px;
