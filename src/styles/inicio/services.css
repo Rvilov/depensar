@@ -134,6 +134,7 @@
     .servicios-div-tipos {
         height: auto;
         padding: 20px 15px;
+        width: 500px;
     }
 
     .servicios-tipos-titulo span {
@@ -150,7 +151,7 @@
     }
 
     .tipo {
-        width: 30%;
+        width: 85%;
         height: auto;
         margin-top: 20px;
         padding: 25px;
