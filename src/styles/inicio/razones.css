@@ -21,6 +21,10 @@
     justify-content: center;
     align-items: center;
 
+    background: url("../../assets/inicio/razones.png");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
     
     
 }
@@ -41,36 +45,7 @@
     
 }
 
-.razones-div-foto{
-    z-index: 1;
-    
-    position: relative;
 
-    left: 170px;
-    bottom: 20px;
-    width: 300px;
-    height: 407px;
-    
-    background-image: url(../../assets/inicio/4.jpg);
-    background-size: cover;
-    background-position: center;
-
-    border-radius: 15px;
-}
-
-.razones-div-background{
-    z-index: 0;
-    position: relative;
-    
-    
-    right: 180px;
-    top: 30px;
-    width: 300px;
-    height: 407px;
-    background-color: #66fecb;
-
-    border-radius: 15px;
-}
 
 .razones-texto{
     
@@ -112,9 +87,10 @@
     }
 
     .razones-foto {
-        height: auto;
-        width: 100%;
-        margin-bottom: 20px;
+        height: 500px;
+        width: 500px;
+        margin-bottom: 10px;
+        background-size: 80%;
     }
 
     .razones-texto {
@@ -127,56 +103,24 @@
         font-size: 30px;
     }
 
-    .razones-div-background{
-        position: relative;
-        top: 20px;
-        right: 160px;
-        width: 500px;
-        height: 200px;
-    }
-
-    .razones-div-foto{
-        position: relative;
-        top: 10px;
-        right: 200px;
-        width: 500px;
-        height: 200px;
-
-        
-    }
+  
 }
 
 /* Tablets en orientación vertical (max-width: 768px) */
 @media (max-width: 768px) {
     .razones-div {
-        flex-direction: column;
+        flex-direction: column-reverse;
         height: auto;
         padding: 20px;
     }
 
     .razones-foto {
-        height: auto;
-        width: 600px;
-        margin-bottom: 40px;
-    }
-
-    .razones-div-background{
-       
-        top: 0px;
-        right: 170px;
+        height: 500px;
         width: 500px;
-        height: 400px;
+        margin-bottom: 10px;
+        background-size: 80%;
     }
 
-    .razones-div-foto{
-                
-        top: 30px;
-        left: 170px;
-        width: 500px;
-        height: 400px;
-
-        
-    }
 
     .razones-texto {
         width: 100%;
@@ -201,25 +145,13 @@
     }
 
     .razones-foto {
-        height: auto;
-        width: 50%;
+        height: 500px;
+        width: 500px;
+        margin-bottom: 10px;
+        background-size: 50%;
     }
 
-    .razones-div-foto{
-        left: 120px;
-        width: 500px;
-        height: 200px;
-    }
-    
-    
-        
-    .razones-div-background {
-        left: -30px;
-        top: 20px;
-        width: 500px;
-        height: 200px;
-
-        }
+   
 
     .razones-texto {
         width: 100%;

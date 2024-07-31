@@ -24,43 +24,13 @@
     justify-content: center;
     align-items: center;
 
-        
-}
-
-.sobremi-div-foto{
-    z-index: 1;
-    
-    position: relative;
-
-    left: 170px;
-    bottom: 20px;
-    width: 300px;
-    height: 407px;
-
-    border-radius: 15px;
-    
-    background-image: url(../../assets/inicio/3.jpg);
-    background-size: cover;
+    background: url("../../assets/inicio/sobremi.png");
+    background-repeat: no-repeat;
     background-position: center;
-    
-   
+    background-size: 65%;    
 }
 
 
-.sobremi-div-background{
-    z-index: 0;
-    
-    position: relative;
-    
-    
-    right: 180px;
-    top: 30px;
-    width: 300px;
-    height: 407px;
-    background-color: #66fecb;
-    border-radius: 15px;
-    
-}
 
 .sobremi-texto{
     
@@ -99,17 +69,13 @@
     }
 
     .sobremi-foto {
-        height: auto;
-        width: 100%;
-        margin-bottom: 20px;
+        height: 500px;
+        width: 500px;
+        margin-bottom: 10px;
+        background-size: 80%;
     }
 
-    .sobremi-div-foto, .sobremi-div-background {
-        
-        
-        height: 400px;
-        margin-bottom: 20px;
-    }
+   
 
     .sobremi-texto {
         width: 100%;
@@ -136,27 +102,14 @@
     }
 
     .sobremi-foto {
-        height: auto;
-        width: 600px;
-        margin-bottom: 20px;
-    }
-
-    .sobremi-div-background{
-       
-        top: 10px;
-        right: 170px;
+        height: 500px;
         width: 500px;
-        height: 400px;
-    }
-
-    .sobremi-div-foto{
-         
-        top: 30px;
-        left: 170px;
-        width: 500px;
-        height: 400px;
+        margin-bottom: 10px;
+        background-size: 80%;
 
     }
+
+ 
 
     .sobremi-texto {
         align-items: center;
@@ -187,22 +140,7 @@
         height: auto;
         width: 50%;
     }
-    .sobremi-div-background{
-       
-        top: 20px;
-        right: 120px;
-        width: 500px;
-        height: 200px;
-    }
-
-    .sobremi-div-foto{
-                
-        left: 120px;
-        width: 500px;
-        height: 200px;
-
-        
-    }
+  
 
     .sobremi-texto {
         width: 100%;

@@ -12,12 +12,7 @@ export const SobreMi = () =>{
                 
                 
                 <div className="sobremi-foto">
-                    <div className="sobremi-div-foto">
-                    
-                    </div>
-                    <div className="sobremi-div-background">
-
-                    </div>
+                  
                 </div>
                                
                 <div className="sobremi-texto">

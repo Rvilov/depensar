@@ -21,12 +21,7 @@ export const Razones = () => {
             </div>
 
             <div className="razones-foto">
-                <div className="razones-div-foto">
-    
-                </div> 
-                <div className="razones-div-background">
-    
-                </div> 
+               
             </div>
             
         </div>
