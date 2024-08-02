@@ -6,6 +6,12 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+
+    color: #161616;
+}
+
+.inicia span{
+    font-size: 17px;
 }
 
 /* Teléfonos (max-width: 480px) */

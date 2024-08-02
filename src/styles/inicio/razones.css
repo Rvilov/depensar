@@ -29,9 +29,7 @@
     
 }
 
-.razones-texto ul{
-    list-style-type: none;
-}
+
 
 .razones-texto ul li{
     background-image: url("../../assets/inicio/icons8-punto-30.png");
@@ -39,10 +37,10 @@
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
     padding-left: 2rem;
-
-    font-size: 20px;
+    list-style-type: none;
+    font-size: 17px;
     margin-bottom: 10px;    
-    
+    margin-top: 15px;
 }
 
 
@@ -68,13 +66,11 @@
 
 .razones-texto h3{
     font-size: 40px;
-    font-weight: lighter;
+    
 }
 
 
-.razones-texto ul{
-    margin-top: 15px;
-}
+
 
 
 

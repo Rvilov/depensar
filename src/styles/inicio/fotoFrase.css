@@ -30,14 +30,13 @@
 
     padding: 50px;
 
-    font-weight: lighter;
+    color:#161616;
+    
     background-color: #66fecb;
     border-radius: 15px;
 }
 
-.frase h4{
-    font-weight: normal;
-}
+
 @media (max-width: 480px) {
 
 .frase{

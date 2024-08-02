@@ -60,7 +60,7 @@ export function Header() {
         </button>
         <ul className='nav-menu'>
           <li className='nav-menu-item'>
-            <NavLink to='depensar/inicio'>INICIO</NavLink>
+            <NavLink to='depensar/'>INICIO</NavLink>
           </li>
           <li className='nav-menu-item'>
             <NavLink to='depensar/sobre_mi'>SOBRE MI</NavLink>
