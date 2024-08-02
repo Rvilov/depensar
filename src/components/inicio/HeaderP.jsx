@@ -52,6 +52,7 @@ export function Header() {
   }, []); // El array vacío asegura que el efecto se ejecute solo una vez al montar el componente
 
   return (
+    
     <header className='header'>
       <nav id='nav'>
         <span className='logo'></span>
