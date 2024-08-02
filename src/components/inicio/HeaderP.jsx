@@ -60,16 +60,16 @@ export function Header() {
         </button>
         <ul className='nav-menu'>
           <li className='nav-menu-item'>
-            <NavLink to='depensar/'>INICIO</NavLink>
+            <NavLink to='/inicio'>INICIO</NavLink>
           </li>
           <li className='nav-menu-item'>
-            <NavLink to='depensar/sobre_mi'>SOBRE MI</NavLink>
+            <NavLink to='/sobre_mi'>SOBRE MI</NavLink>
           </li>
           <li className='nav-menu-item'>
-            <NavLink to='depensar/servicios'>SERVICIOS</NavLink>
+            <NavLink to='/servicios'>SERVICIOS</NavLink>
           </li>
           <li className='nav-menu-item'>
-            <NavLink to='depensar/contacto'>CONTACTO</NavLink>
+            <NavLink to='/contacto'>CONTACTO</NavLink>
           </li>
         </ul>
       </nav>
