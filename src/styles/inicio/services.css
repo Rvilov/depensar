@@ -175,12 +175,14 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .servicios-div {
         height: auto;
+        
         padding: 30px 50px;
     }
 
     .servicios-div-tipos {
         height: auto;
         padding: 30px 20px;
+        width: 750px;
     }
 
     .servicios-tipos-titulo span {

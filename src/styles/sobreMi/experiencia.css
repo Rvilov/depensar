@@ -167,18 +167,21 @@
     }
 
     .experiencia-div {
-        flex-direction: row;
+        flex-direction: column-reverse;
         height: 500px;
         background-size: 80%;
         padding: 40px;
+        justify-content: center;
+        align-items: center;
     }
 
     .experiencia-titulo-div {
         width: 50%;
         height: auto;
         padding: 20px;
-        align-items: flex-start;
+        align-items: center;
         text-align: left;
+        margin-top: 30px;
     }
 
     .experiencia-titulo-div h3 {
@@ -189,10 +192,11 @@
     .experiencia-titulo-div p {
         font-size: 16px;
         margin-bottom: 20px;
+        width: 500px;
     }
 
     .experiencia-detalles-div {
-        width: 50%;
+        width: 80%;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;

@@ -162,19 +162,25 @@
         align-items: center;
         justify-content: space-between;
         padding: 40px;
+        
     }
 
     .footer-div-datos {
         margin: 0 100px;
+        width: 100px;
+    }
+    .footer-div-datos h2 {
+        width: 200px;
+        align-items: end;
     }
 
     .footer-div-logo {
-        width: 130px;
+        width: 230px;
         height: 130px;
     }
 
     .footer-div-agendar {
-        width: 100%;
+        width: 500px;
         padding: 35px;
 
         
@@ -185,6 +191,12 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        width: 100px;
        
+    }
+
+    .footerD{
+        height: 280px;
+        width: 800px;
     }
 }

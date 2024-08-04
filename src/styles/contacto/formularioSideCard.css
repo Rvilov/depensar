@@ -15,11 +15,18 @@
     margin-top: 30px;
 }
 
-.formulario-info img{
-    position: absolute;
-    height: 500px;
-}
 
+span{
+    display: flex;
+    align-items: center;
+}
+span img{
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+
+    
+}
 /* Teléfonos (max-width: 480px) */
 @media (max-width: 480px) {
     .formulario-info {
@@ -73,7 +80,7 @@
         width: 100%;  
         padding: 35px; 
         background-size: cover; 
-        border-radius: 0; 
+        border-radius: 0px 0px 15px 15px; 
     }
     .formulario-info span {
         margin-top: 25px; 

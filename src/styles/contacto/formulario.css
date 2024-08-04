@@ -7,8 +7,7 @@
     width: auto;
     height: 800px;
     
-    
-
+    color:#161616
 
 }
 
@@ -228,12 +227,14 @@
     .formulario {
         height: auto;
         padding: 40px;
+        position: bottom;
     }
 
     .formulario-principal {
-        flex-direction: row;
+        flex-direction: column;
         width: 85%;
         height: auto;
+        
         
     }
 
@@ -251,7 +252,7 @@
     .formulario-input {
         width: 48%;
         height: 50px;
-        margin: 10px 0;
+        margin: 10px 5px;
     }
 
     .formulario-datos textarea {
@@ -265,8 +266,9 @@
     }
 
     .formulario-button {
-        width: auto;
+        width: 100px;
         height: 45px;
         margin-top: 30px;
     }
+   
 }

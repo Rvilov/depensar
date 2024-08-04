@@ -141,10 +141,9 @@
     }
 
     .razones-foto {
-        height: 500px;
-        width: 500px;
-        margin-bottom: 10px;
-        background-size: 50%;
+        height: 450px;
+        background-size: 100%;
+        width: 450px;
     }
 
    
