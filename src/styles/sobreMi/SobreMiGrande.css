@@ -106,12 +106,13 @@
 
 /* Tablets en orientación horizontal (min-width: 768px) y (max-width: 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .sobremi-grande-div {
+    .sobremi-grande-div{
         flex-direction: column;
         
         height: 1300px;
         width: auto;
-        margin-top: 70px;
+        margin-top: 0px;
+        
     }
 
     .sobremi-grande-foto {

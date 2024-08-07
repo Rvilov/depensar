@@ -162,12 +162,17 @@
         align-items: center;
         justify-content: space-between;
         padding: 40px;
+       height: 280px;
+        width: auto;
+        
         
     }
 
     .footer-div-datos {
-        margin: 0 100px;
-        width: 100px;
+        margin: 0 50px;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
     }
     .footer-div-datos h2 {
         width: 200px;
@@ -182,7 +187,7 @@
     .footer-div-agendar {
         width: 500px;
         padding: 35px;
-
+        
         
     }
 
@@ -191,12 +196,9 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 100px;
+        
        
     }
 
-    .footerD{
-        height: 280px;
-        width: 800px;
-    }
+   
 }

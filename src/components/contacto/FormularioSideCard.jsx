@@ -2,6 +2,7 @@ import "../../styles/contacto/formularioSideCard.css"
 
 import correo from "../../assets/Contactame/correo.png"
 import telefono from "../../assets/Contactame/telefono24.png"
+import direccion from "../../assets/Contactame/direccion.png"
 export function SideCard(){
     return( 
     <div className="formulario-info">
@@ -14,6 +15,10 @@ export function SideCard(){
         <span >
             <img src={correo} alt="" />
             psicderlislobo@gmail.com
+        </span>
+        <span >
+            <img src={direccion} alt="" />
+            Direccion
         </span>
        
     </div> )
