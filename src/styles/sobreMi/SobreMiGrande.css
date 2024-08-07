@@ -9,6 +9,9 @@
 
     height: 650px;
     width: 100%;
+
+
+    
 }
 
 .sobremi-grande-foto{
@@ -20,10 +23,24 @@
 
     height: 100%;
     width: 100%;
-
     
     
+    
+    
+    animation: slideInFromLeft 0.5s ease-out forwards; 
 }
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 
 .sobremi-grande-texto{
     display: flex;

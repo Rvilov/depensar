@@ -26,10 +26,10 @@ export const FooterD = () =>{
                     Psic. Derlis Lobo
                 </h2>
                 <span>
-                    dalc2324@gmail.com
+                    psicderlislobo@gmail.com
                 </span>
                 <span>
-                    041212345678
+                +58 0424 - 7449166
                 </span>
 
                 <div className="footer-div-redes">
